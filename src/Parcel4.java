@@ -1,5 +1,3 @@
-package com.company;
-
 interface Destination{
     int a = 0;
 }

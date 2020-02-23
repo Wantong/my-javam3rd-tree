@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SwingApplet extends JApplet {
+public class SwingAppleta extends JApplet {
     public void init(){
         Container contentPane=getContentPane();
         contentPane.setLayout(new GridLayout(2,1));

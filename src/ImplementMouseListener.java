@@ -1,4 +1,3 @@
-package com.company;
 import javax.swing.*;
 import java.awt.event.*; // load MouseListener Class package
 import javax.swing.*; //load all JFrame package

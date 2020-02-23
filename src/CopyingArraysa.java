@@ -1,7 +1,7 @@
 import java.lang.reflect.Array;
 import java.util.*;
 //Section 6.3
-public class CopyingArrays {
+public class CopyingArraysa {
     public static void main(String[] args){
         int[] i = new int[25];
         int[] j = new int[25];

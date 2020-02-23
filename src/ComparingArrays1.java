@@ -1,6 +1,6 @@
 import java.util.*;
 //section6.3
-public class ComparingArrays {
+public class ComparingArrays1 {
     public static void main(String[] args){
         int[] a1 = new int[10];
         int[] a2 = new int[10];
