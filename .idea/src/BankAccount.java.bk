@@ -1,0 +1,37 @@
+package com.company;
+
+class Banktest {
+    String ownerName;
+    int    accountNumber;
+    float  balance;
+}
+public class BankAccount{
+    public static void main(String arg[]){
+        Banktest myAccount = new Banktest();
+        System.out.println("ownerNmae="+myAccount.ownerName);
+        System.out.println("accountNumber="+myAccount.accountNumber);
+        System.out.println("balance="+myAccount.balance);
+    }
+}
+public abstract class Vechicle
+{
+    private String type;
+    public Vechicle() {}
+    public Vechicle(String s) {type = s;}
+    public abstract void drivedByFemaleDriver();
+    public abstract void drivedByMaleDriver();
+}
+public class Bus extends Vechicle{
+    public Bus() {}
+    public void drivedByFemaleDriver()
+    {System.out.println("A female driver drives a bus")}
+    public void drivedByMaleDriver()
+    {System.out.println("A male driver drives a bus");}
+}
+public class Car extends Vechicle{
+    public Car() {}
+    public void drivedByFemaleDriver()
+    {System.out.println("A female driver drives a car")}
+    public void drivedByMaleDriver()
+    {System.out.println("A male driver drives a car");}
+}
